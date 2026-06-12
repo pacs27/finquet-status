@@ -11,10 +11,15 @@ Para activar un aviso: editar `status.json` con `active: true`, un `id` nuevo y 
     "id": "2026-06-15-incidencia",
     "active": true,
     "severity": "warning",
-    "message": "Texto que ve el usuario.",
+    "message": {
+      "es": "Texto que ve el usuario.",
+      "en": "Text the user sees."
+    },
     "url": null
   }
 }
 ```
 
-`severity`: `info` | `warning` | `critical` (critical no se puede descartar). Para desactivar: `active: false`.
+`message`: objeto por idioma (`es`, `en`, `fr`, `de`, `it`, `nl`, `el`) — la app usa el idioma del usuario con fallback en→es. También admite un string simple.
+
+`severity`: `info` | `warning` | `critical` (critical no se puede descartar, solo minimizar). Para desactivar: `active: false`.

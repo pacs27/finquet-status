@@ -1,10 +1,18 @@
 {
   "schema_version": 1,
   "incident": {
-    "id": "2026-06-12-prueba-critical",
+    "id": "2026-06-12-prueba-critical-i18n",
     "active": true,
     "severity": "critical",
-    "message": "Estamos teniendo problemas técnicos con la sincronización. Tus datos están a salvo y puedes seguir trabajando sin conexión: todo se sincronizará cuando se restablezca el servicio.",
+    "message": {
+      "es": "Estamos teniendo problemas técnicos con la sincronización. Tus datos están a salvo y puedes seguir trabajando sin conexión: todo se sincronizará cuando se restablezca el servicio.",
+      "en": "We are experiencing technical issues with synchronization. Your data is safe and you can keep working offline: everything will sync once the service is restored.",
+      "fr": "Nous rencontrons des problèmes techniques de synchronisation. Vos données sont en sécurité et vous pouvez continuer à travailler hors ligne : tout sera synchronisé dès le rétablissement du service.",
+      "de": "Wir haben derzeit technische Probleme mit der Synchronisierung. Deine Daten sind sicher und du kannst offline weiterarbeiten: Alles wird synchronisiert, sobald der Dienst wiederhergestellt ist.",
+      "it": "Stiamo riscontrando problemi tecnici con la sincronizzazione. I tuoi dati sono al sicuro e puoi continuare a lavorare offline: tutto verrà sincronizzato al ripristino del servizio.",
+      "nl": "We ondervinden technische problemen met de synchronisatie. Je gegevens zijn veilig en je kunt offline blijven werken: alles wordt gesynchroniseerd zodra de service is hersteld.",
+      "el": "Αντιμετωπίζουμε τεχνικά προβλήματα με τον συγχρονισμό. Τα δεδομένα σου είναι ασφαλή και μπορείς να συνεχίσεις να εργάζεσαι εκτός σύνδεσης: όλα θα συγχρονιστούν μόλις αποκατασταθεί η υπηρεσία."
+    },
     "url": null
   }
 }

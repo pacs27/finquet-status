@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "incident": {
+    "id": "2026-06-11-setup",
+    "active": false,
+    "severity": "warning",
+    "message": "",
+    "url": null
+  }
+}
